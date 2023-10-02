@@ -1,10 +1,14 @@
 import React from "react";
+import LogoInv from "../assets/Logo";
 
 const Footer = () => {
   return (
-    <footer className="absolute bottom-0 w-full">
-      <div className="flex justify-around text-white bg-blue-900 py-20 font-thin text-xs">
-        <div className="font-bold text-base">HelpMeOut + Logo</div>
+    <footer className="w-full bg-[#120B48]">
+      <div className="flex justify-around container mx-auto text-white py-20 font-thin text-xs">
+        <div className="font-bold text-base">
+          <LogoInv className='text-white' />
+          HelpMeOut
+        </div>
         <div className="flex flex-col gap-4">
           <h3 className="font-bold text-base">Menu</h3>
           <p>Home</p>
